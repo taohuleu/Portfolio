@@ -1,9 +1,26 @@
 /* Styles généraux pour le corps de la page */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+}
+
+body.page-accueil {
     background-color: #e9ecef; /* CHANGEMENT : Un gris léger pour le fond de la page */
 }
+body.page-a-propos {
+    background-color: #f0efc8; /* CHANGEMENT : Un gris léger pour le fond de la page */
+}
+body.page-projet {
+    background-color: #e8cae3; /* CHANGEMENT : Un gris léger pour le fond de la page */
+}
+body.page-veille {
+    background-color: #c8d7f0; /* CHANGEMENT : Un gris léger pour le fond de la page */
+}
+body.page-contact {
+    background-color: #cee6ba; /* CHANGEMENT : Un gris léger pour le fond de la page */
+}
+
 
 /* Conteneur générique qui crée les marges sur les côtés */
 .container {
