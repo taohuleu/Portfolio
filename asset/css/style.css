@@ -1,0 +1,61 @@
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e9ecef; /* CHANGEMENT : Un gris léger pour le fond de la page */
+}
+
+/* Conteneur générique qui crée les marges sur les côtés */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Ajoute un espace au-dessus du contenu principal */
+main.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* AJOUT : Un fond blanc pour faire ressortir le contenu */
+    padding: 40px;             /* AJOUT : De l'espace à l'intérieur du bloc blanc */
+    border-radius: 5px;        /* AJOUT (Optionnel) : Des bords arrondis pour un style plus moderne */
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* AJOUT (Optionnel) : Une ombre très subtile */
+}
+
+/* Style de l'en-tête (la barre bleue reste sur toute la largeur) */
+.main-header {
+    background-color: #14589c;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Style de la liste du menu */
+.main-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Garde le groupe de gauche aligné à gauche */
+}
+
+/* NOUVELLE RÈGLE */
+/* Pousse cet élément spécifique vers la droite */
+.contact-item {
+    margin-left: auto;
+}
+
+/* Style des liens du menu */
+.main-header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 25px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+/* Effet au survol de la souris sur les liens du menu */
+.main-header nav a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
