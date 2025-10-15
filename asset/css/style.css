@@ -104,3 +104,50 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+/* #################################### */
+
+
+/* ==========================================================================
+   FOOTER STYLES
+   ========================================================================== */
+
+/* Style principal du footer */
+.main-footer {
+    background-color: #2c3e50; /* Une couleur sombre mais moins dure que le noir */
+    color: #ecf0f1; /* Un gris très clair pour le texte */
+    padding: 20px 0; /* Espace vertical pour aérer le contenu */
+    margin-top: 40px; /* Espace entre le contenu principal et le footer */
+    border-top: 3px solid #14589c; /* Rappel de la couleur bleue du header */
+}
+
+/* Conteneur pour le contenu du footer */
+.main-footer .footer-content {
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    justify-content: space-between; /* Espace les éléments uniformément */
+    align-items: center; /* Centre les éléments verticalement */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne sur petits écrans */
+    text-align: center; /* Centre le texte pour les petits écrans */
+}
+
+/* Style des paragraphes dans le footer */
+.main-footer p {
+    margin: 5px 15px; /* Petites marges pour l'espacement */
+}
+
+/* Style des liens dans le footer */
+.main-footer a {
+    color: #ffffff; /* Liens en blanc pour contraster */
+    text-decoration: none; /* Pas de soulignement par défaut */
+    transition: color 0.3s; /* Effet de transition doux pour le survol */
+}
+
+/* Effet au survol des liens */
+.main-footer a:hover {
+    color: #3498db; /* Change la couleur au survol */
+}
+
+/* Conteneur pour les liens des réseaux sociaux */
+.social-links a {
+    margin: 0 10px; /* Espace horizontal entre chaque lien social */
+    font-weight: bold; /* Met les liens en gras */
+}
