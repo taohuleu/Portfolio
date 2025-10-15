@@ -39,6 +39,17 @@ main.container {
     box-shadow: 0 0 10px rgba(0,0,0,0.05); /* AJOUT (Optionnel) : Une ombre très subtile */
 }
 
+/* Style H1 */
+h1 {
+    font-size: 40px;
+}
+
+/* Pour le style du text */
+p.text1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
 /* Style de l'en-tête (la barre bleue reste sur toute la largeur) */
 .main-header {
     background-color: #14589c;
