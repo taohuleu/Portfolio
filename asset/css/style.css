@@ -6,19 +6,19 @@ body {
 }
 
 body.page-accueil {
-    background-color: #e9ecef; /* CHANGEMENT : Un gris léger pour le fond de la page */
+    background-color: #e9ecef;
 }
 body.page-a-propos {
-    background-color: #f0efc8; /* CHANGEMENT : Un gris léger pour le fond de la page */
+    background-color: #f0efc8;
 }
 body.page-projet {
-    background-color: #e8cae3; /* CHANGEMENT : Un gris léger pour le fond de la page */
+    background-color: #e8cae3;
 }
 body.page-veille {
-    background-color: #c8d7f0; /* CHANGEMENT : Un gris léger pour le fond de la page */
+    background-color: #c8d7f0;
 }
 body.page-contact {
-    background-color: #cee6ba; /* CHANGEMENT : Un gris léger pour le fond de la page */
+    background-color: #cee6ba;
 }
 
 
@@ -75,4 +75,32 @@ main.container {
 .main-header nav a:hover {
     background-color: #34495e;
     border-radius: 5px;
+}
+
+/* FOMRULAIRE */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
