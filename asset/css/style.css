@@ -24,7 +24,7 @@ body.page-contact {
 
 /* Conteneur générique qui crée les marges sur les côtés */
 .container {
-    max-width: 900px;
+    max-width: 70%;
     margin: 0 auto;
     padding: 0 20px;
 }
